@@ -5,7 +5,7 @@ import React from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 
 // CSS
-import "./navbar.css"
+import "./navbar.css";
 
 // Language
 
@@ -19,6 +19,11 @@ function Navbar(props) {
   const sidenavBackground = {
     width: "100%",
     height: "auto",
+  };
+
+  const style = {
+    cursor: "pointer",
+    color: "black",
   };
 
   return (
@@ -47,7 +52,7 @@ function Navbar(props) {
             <a
               href="#!"
               data-target="mobile-demo"
-              className="sidenav-trigger"
+              className="sidenav-trigger right"
             >
               <i className="material-icons">menu</i>
             </a>
@@ -79,6 +84,36 @@ function Navbar(props) {
           </div>
           <div className="nav-content center">
             <span className="nav-title">試下直接搜尋</span>
+          </div>
+          <div class="nav-wrapper">
+            <div className="container">
+              <div className="row">
+                <div className="col s6">
+                  <div className="row">
+                    <div className="input-field col s6">
+                      <a
+                        style={style}
+                        id={props.id}
+                        onClick={props.handleSubmit}
+                        href="!"
+                        className="material-icons prefix"
+                      >
+                        search
+                      </a>
+                      <input
+                        onKeyDown={props.onKeyDown}
+                        type="text"
+                        id="autocomplete-input"
+                        className="autocomplete"
+                        name="searchBar"
+                        ref={props.register}
+                      />
+                      <label htmlFor="autocomplete-input"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </nav>
         {/* Navbar End */}
