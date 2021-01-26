@@ -5,3 +5,34 @@ nav {
 .defineCenter {
     float: none !important;
 }
+
+.searchContainer{
+    float: left;
+    height:50px;
+    width: 40%;
+    margin-left:25% ;
+    background-color: white;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
+  
+}
+
+.searchterm{
+    width: 90%;
+}
+
+.searchBtn{
+background-color: #3cf042;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  border-bottom-right-radius: 10px ;
+  border-top-right-radius: 10px ;
+    
+}

@@ -9,6 +9,8 @@ import "./navbar.css";
 
 // Language
 
+
+
 function Navbar(props) {
   // Initalize Sidenav
   document.addEventListener("DOMContentLoaded", function () {
@@ -86,35 +88,18 @@ function Navbar(props) {
             <span className="nav-title">試下直接搜尋</span>
           </div>
           <div class="nav-wrapper">
-            <div className="container">
-              <div className="row">
-                <div className="col s6">
-                  <div className="row">
-                    <div className="input-field col s6">
-                      <a
-                        style={style}
-                        id={props.id}
-                        onClick={props.handleSubmit}
-                        href="!"
-                        className="material-icons prefix"
-                      >
-                        search
-                      </a>
-                      <input
-                        onKeyDown={props.onKeyDown}
-                        type="text"
-                        id="autocomplete-input"
-                        className="autocomplete"
-                        name="searchBar"
-                        ref={props.register}
-                      />
-                      <label htmlFor="autocomplete-input"></label>
-                    </div>
-                  </div>
+
+           
+                <div className="searchContainer">
+                  <input type="text" className="searchterm" placeholder="     搜尋"></input>
+                  
                 </div>
-              </div>
-            </div>
-          </div>
+                <button type="submit" className="searchBtn">Go!</button>
+                </div>
+
+             
+            
+          
         </nav>
         {/* Navbar End */}
       </div>
