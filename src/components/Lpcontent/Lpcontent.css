@@ -1,0 +1,70 @@
+.top-service-card {
+  border: 2px black solid;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: 300px 30px;
+  float: right;
+  border-radius: 80px;
+}
+
+.contentContainer {
+  padding-top: 15%;
+}
+
+.topSertopic {
+  padding-left: 7%;
+  font-size: 50px;
+}
+
+.topSerbox {
+  padding-left: 5%;
+}
+
+.boxPT {
+  border-radius: 10px;
+  background-image: url("./image/perosonaltrainer.jpg");
+  background-size: 300px 300px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.boxWD {
+  border-radius: 10px;
+  background-image: url("./image/webdev.jpeg");
+  background-size: 300px 300px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.boxBB {
+  border-radius: 10px;
+  background-image: url("./image/barber.jpg");
+  background-size: 300px 300px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.boxBT {
+  background-image: url("./image/beauty.jpg");
+  background-size: 300px 300px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.serbot {
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+  width: 50px;
+  background-color: rgb(248, 120, 0);
+  border-radius: 10px;
+}
