@@ -29,6 +29,7 @@
   width: 300px;
   height: 300px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .boxWD {
@@ -39,6 +40,7 @@
   width: 300px;
   height: 300px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .boxBB {
@@ -49,6 +51,7 @@
   width: 300px;
   height: 300px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .boxBT {
@@ -58,13 +61,32 @@
   width: 300px;
   height: 300px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .serbot {
+  margin-top: 90%;
+  width: 100%;
   color: white;
   font-size: 20px;
   padding: 3px;
-  width: 50px;
+  text-align: center;
   background-color: rgb(248, 120, 0);
   border-radius: 10px;
+}
+
+.boxPT:hover {
+  transform: scale(1.1);
+}
+
+.boxWD:hover {
+  transform: scale(1.1);
+}
+
+.boxBB:hover {
+  transform: scale(1.1);
+}
+
+.boxBT:hover {
+  transform: scale(1.1);
 }
